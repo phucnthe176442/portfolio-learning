@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Montserrat:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- css main -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://kit.fontawesome.com/4025a1217e.css"
+      crossorigin="anonymous"
+    />
+    <title>Portfolio</title>
+  </head>
+  <body style="overflow-x: hidden; overflow-y: unset">
+    <!-- header -->
+    <header id="header">
+      <div class="container">
+        <nav class="navbar">
+          <!-- logo -->
+          <div class="navbar__logo">
+            <img src="./img/logo.png" alt="Website logo" />
+          </div>
+          <!-- links -->
+          <ul class="navbar__links">
+            <li class="navbar__link"><a href="#about">About Me</a></li>
+            <li class="navbar__link"><a href="#skills">Skills</a></li>
+            <li class="navbar__link"><a href="#works">Works</a></li>
+            <a href="#">
+              <button class="navbar__btn">Contact Me</button>
+            </a>
+          </ul>
+          <!-- menu button -->
+          <div class="navbar__icons">
+            <div class="navbar__icon"></div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- banner -->
+    <section id="banner">
+      <div class="container">
+        <!-- heading -->
+        <div class="banner__heading">
+          <h1>Hi, I'm Phuc</h1>
+          <h2>Web Developer</h2>
+          <p>
+            I believed that life is a programming problem we have to solve but
+            we can not change in each step(past). So I always try greedy
+            algorithm to find the best result.
+          </p>
+          <a href="#about"><button class="banner__btn">View More</button></a>
+          <div class="banner__socials" style="margin-left: 0">
+            <a href="mailto:phucnthe176442@fpt.edu.vn"><i class="fa-sharp fa-solid fa-envelope"></i></a>
+            <a href="https://www.facebook.com/phuc.nguyentri.549"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://github.com/phucnthe176442"><i class="fa-brands fa-github"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about me -->
+    <section id="about">
+      <div class="container">
+        <div class="about__heading">
+          <a href="#about"><h1>About Me</h1></a>
+          <img src="./img/uongnuocmia.jpg" alt="Me" />
+          <p>
+            My name is <b>Nguyen Tri Phuc</b> - a sophomore
+            <b>Software Engineering</b> at Hanoi FPT University. I have been
+            learning Web Development for 1 week and I'm keen on making cool
+            things and pursuing technologies. <br />
+            <br />
+            Membership in <b>JS Club</b> developed my programming skills, which
+            quickly turned into my hobby. I can program all day long without
+            getting tired. Apart from programming, I'm fond of drinking and
+            working out in my spare time.
+          </p>
+          <a href="#about__mktID"><button class="about__btn">MORE</button></a>
+          <div class="about__mkt" id="about__mktID">
+            <div class="about__mkt-service">
+              <i class="fa-solid fa-pen-ruler"></i>
+              <h2>Design</h2>
+              <p>
+                I can design the website based on your needs and suggestions. I
+                can also create it from scratch by consulting with you during my
+                work.
+              </p>
+            </div>
+            <div class="about__mkt-service">
+              <i class="fa-solid fa-code"></i>
+              <h2>Development</h2>
+              <p>
+                Based on a project created by me (or any another one provided by
+                you), I can code the website to be well functional and
+                responsive.
+              </p>
+            </div>
+          </div>
+          <script>
+            document.getElementById("about__mktID").style.display = "none";
+          </script>
+        </div>
+      </div>
+    </section>
+    <!-- skills -->
+    <section id="skills">
+      <div class="container">
+        <i class="fa-solid fa-arrow-down"></i>
+        <div class="skills__heading" id="skills__head">
+          <a href="#skills__head"><h1>Skills</h1></a>
+          <h2>USING NOW</h2>
+          <div class="skills__symbols">
+            <div class="skills__symbol">
+              <img src="./img/html5-logo.png" alt="" />
+              <h3>HTML5</h3>
+            </div>
+            <div class="skills__symbol">
+              <img src="./img/CSS3_logo.svg.png" alt="Css3 logo" />
+              <h3>CSS3</h3>
+            </div>
+            <div class="skills__symbol">
+              <img src="./img/logo-javascript.png" alt="JS logo" />
+              <h3>JAVASCRIPT</h3>
+            </div>
+            <div class="skills__symbol">
+              <img src="./img/Figma-logo.svg" alt="Figma logo" />
+              <h3>FIGMA</h3>
+            </div>
+            <div class="skills__symbol">
+              <img src="./img/Git-Icon.png" alt="Git logo" />
+              <h3>Git</h3>
+            </div>
+          </div>
+          <h2>LEARNING</h2>
+          <div class="skills__symbols">
+            <div class="skills__symbol">
+              <img src="./img/react-icon.png" alt="ReactJS logo" />
+              <h3>ReactJS</h3>
+            </div>
+            <div class="skills__symbol">
+              <img src="./img/node-icon.png" alt="NodeJS logo" />
+              <h3>NodeJS</h3>
+            </div>
+            <div class="skills__symbol">
+              <img src="./img/database-logo.jfif" alt="Database logo" />
+              <h3>Database</h3>
+            </div>
+          </div>
+          <h2>OTHERS</h2>
+          <div class="skills__symbols">
+            <div class="skills__symbol">
+              <img src="./img/cpp.svg.png" alt="Cpp logo" />
+              <h3>C++</h3>
+            </div>
+            <div class="skills__symbol">
+              <img src="./img/c.svg.png" alt="C logo" />
+              <h3>C</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- works -->
+    <section id="works">
+      <div class="container">
+        <!-- heading -->
+        <div class="works__heading">
+          <h1><a href="#works">Works</a></h1>
+          <h2>Awards</h2>
+          <ul class="works__timeline">
+            <li class="works__time">
+              <p>
+                <strong>2021</strong> 3rd prize for Viet Nam National Excellent
+                Students in Informatics
+              </p>
+            </li>
+            <li class="works__time">
+              <p>
+                <strong>Mar 2022</strong> Silver Medal Of ICPC Regional Asia
+                Hanoi 2021
+              </p>
+            </li>
+          </ul>
+          <h2>Activities</h2>
+          <ul class="works__timeline">
+            <li class="works__time">
+              <p>
+                <b>2018 - 2021</b> Lao Cai High School for Gifted
+                Student
+              </p>
+            </li>
+            <li class="work__timeline">
+              <p><b>2021 - Now</b> Ha Noi FPT University, ACM/ICPC Contestant</p>
+            </li>
+          </ul>
+          <p>
+            I'm new in <b>Information Technology Industry</b>, especially in <b>Web
+            Development</b>. However, I surely confident about my technical base and
+            want to make cool things in the future. If you interests or want me to
+            join your works <b>please contact me!</b>
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer__btp">
+        <a href="#header">
+          <i class="fa-solid fa-arrow-up"></i>
+        </a>
+        <a href="#header">
+          <p>BACK TO TOP</p>
+        </a>
+      </div>
+      <div class="footer__socials" style="margin-left: 0">
+        <a href="mailto:phucnthe176442@fpt.edu.vn"><i class="fa-sharp fa-solid fa-envelope"></i></a>
+        <a href="https://www.facebook.com/phuc.nguyentri.549"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://github.com/phucnthe176442"><i class="fa-brands fa-github"></i></a>
+      </div>
+      <p class="footer__end">
+        <strong>@2023 Nguyen Tri Phuc </strong>
+      </p>
+    </footer>
+    <!-- fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/4025a1217e.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- main js -->
+    <script src="./js/main.js"></script>
+  </body>
+</html>
